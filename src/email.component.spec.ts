@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { SubMarkComponent } from './sub-mark.component';
+import { EmailComponent } from './email.component';
 
-describe('SubMarkComponent', () => {
-  let component: SubMarkComponent;
-  let fixture: ComponentFixture<SubMarkComponent>;
+describe('EmailComponent', () => {
+  let component: EmailComponent;
+  let fixture: ComponentFixture<EmailComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [SubMarkComponent]
+      imports: [EmailComponent]
     })
     .compileComponents();
     
-    fixture = TestBed.createComponent(SubMarkComponent);
+    fixture = TestBed.createComponent(EmailComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
