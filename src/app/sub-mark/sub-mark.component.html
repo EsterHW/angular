@@ -1,0 +1,16 @@
+
+
+<h1>the mark table</h1>
+<table>
+    <tr *ngFor="let c of familyList">
+
+
+        <td>{{c.subject}}</td>
+        <td>{{c.mark}}</td>
+        <p *ngIf="c.mark > 60" >עבר </p>
+        <td *ngIf="60 >= c.mark" [ngStyle]="{'color': 'red'}">לא עבר </td>
+    </tr>
+
+</table>
+
+<p>the avg is: {{avg}}</p>
