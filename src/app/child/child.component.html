@@ -1,0 +1,13 @@
+
+<h3>{{product.name}}</h3>
+
+<h5>{{product.description}}</h5>
+<h5 style="color: blueviolet"> {{product.price}}</h5>
+
+
+<h5>מחיר לאחר הנחה: {{product.price - product.minus}}</h5>
+<p *ngIf = "product.minus > 300" style = "color: rgb(17, 103, 103);">הנחה משתלמת!!</p>
+<br><br>
+
+
+
